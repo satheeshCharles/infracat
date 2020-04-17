@@ -1,0 +1,4 @@
+terraform apply -var-file=var-value.tfvars -auto-approve
+terraform workspace new dev
+terraform workspace new prod
+terraform workspace select dev
